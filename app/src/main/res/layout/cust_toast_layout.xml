@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relativeLayout1">
+
+    <ImageView
+        android:id="@+id/imagebg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/background2"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="-21dp"
+        android:fontFamily="@font/alex_brush"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:text="Keep calm countdown has begun 🤞"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#CB9F3D" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/alex_brush"
+        android:gravity="center"
+        android:textSize="28dp"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#CB9F3D" />
+
+
+
+
+
+</FrameLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "901521401440",
+    "firebase_url": "https://surbhidii.firebaseio.com",
+    "project_id": "surbhidii",
+    "storage_bucket": "surbhidii.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:901521401440:android:704792860a0c1a69384505",
+        "android_client_info": {
+          "package_name": "com.example.surbhidii"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "901521401440-r6om4caifed411u7puqun744koj30qdo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.surbhidii",
+            "certificate_hash": "a6722ba8c7944e206e096c43c1f8ac39d857f55c"
+          }
+        },
+        {
+          "client_id": "901521401440-8jj37hm1afdh8tukn8jc4puufor8r5sr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAju3Giw5qqCZ4S5wRyJhd48XzPG0GZncc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "901521401440-8jj37hm1afdh8tukn8jc4puufor8r5sr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

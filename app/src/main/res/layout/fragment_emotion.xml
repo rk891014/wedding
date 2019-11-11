@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/yellowbg"
+    tools:context=".fragments.emotion">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/linear_layout"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:id="@+id/jijaji"
+            android:layout_marginStart="-40dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/jijaji"/>
+
+        <TextView
+            android:id="@+id/jc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="-35dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@id/jijaji"
+            android:fontFamily="@font/calligraffitti"
+            android:scaleType="fitCenter"
+            android:text="May You Have a Happy and Prosperous Married Life :- Friends and Family"
+            android:textSize="15dp"
+            android:textColor="@color/colorBlack"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <!--android:layout_marginTop="100dp"-->
+        <!--android:layout_marginBottom="-40dp">-->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        <ImageView
+                            android:id="@+id/imageView2"
+                            android:layout_width="match_parent"
+                            android:layout_height="850dp"
+                            android:layout_marginRight="-10dp"
+                            android:scaleType="fitStart"
+                            android:src="@drawable/minmap2"/>
+
+                        <ImageView
+                            android:id="@+id/imagejijaji"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/jijajiheart" />
+
+
+                        <ImageView
+                            android:id="@+id/image1"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:src="@drawable/pointer2"
+                           />
+
+
+                        <ImageView
+                            android:id="@+id/image2"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:src="@drawable/pointer2"
+                         />
+
+                        <ImageView
+                            android:id="@+id/image3"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:src="@drawable/pointer2"
+                           />
+
+                        <ImageView
+                            android:id="@+id/image4"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:src="@drawable/pointer2"
+                           />
+
+                        <ImageView
+                            android:id="@+id/image5"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:src="@drawable/pointer2"
+                            />
+
+                        <!--kjgfjg-->
+
+                        <ImageView
+                            android:id="@+id/image11"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:src="@drawable/pointer2"
+                           />
+
+                        <ImageView
+                            android:id="@+id/image12"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:src="@drawable/pointer2"
+                           />
+
+                        <ImageView
+                            android:id="@+id/image13"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:src="@drawable/pointer2"
+                           />
+
+
+
+                        <ImageView
+                            android:id="@+id/image14"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:src="@drawable/pointer2" />
+
+                        <ImageView
+                            android:id="@+id/imagedidi"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/diiheart" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+        </ScrollView>
+
+    </LinearLayout>
+        <RelativeLayout
+            android:id="@+id/linear_layout2"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="30dp"
+            android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/diii"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_gravity="right"
+                    android:layout_marginEnd="-50dp"
+                    android:background="#FFF50A"
+                    android:src="@drawable/diiiiipic" />
+
+            <TextView
+                android:id="@+id/dc"
+                android:layout_width="306dp"
+                android:layout_height="95dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="-46dp"
+                android:layout_marginBottom="5dp"
+                android:layout_toStartOf="@+id/diii"
+                android:background="@drawable/yellowbg"
+                android:backgroundTint="#FFF50C"
+                android:fontFamily="@font/calligraffitti"
+                android:scaleType="fitCenter"
+                android:text="May You Have a Happy and Prosperous Married Life :- Friends and Family"
+                android:textColor="@color/colorBlack"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+
+
+
+
+        </RelativeLayout>
+
+
+
+</RelativeLayout>

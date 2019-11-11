@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="vertical"
+    tools:context=".activities.register">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/layout_button"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/btnUpload"
+            android:text="Upload"
+            android:textColor="@color/colorGreen"
+            android:textSize="22sp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+       android:layout_gravity="center"
+        android:src="@drawable/ic_action_registration2"
+        android:id="@+id/image_profile" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:textAlignment="center"
+        android:background="#fff "
+        android:layout_marginTop="15dp"
+        android:id="@+id/username"
+        android:padding="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Say Something about Couple"
+        android:textAlignment="center"
+        android:background="#fff "
+        android:layout_marginTop="15dp"
+        android:id="@+id/description"
+        android:padding="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/contactno"
+        android:textAlignment="center"
+        android:hint="Whatsup Number"
+        android:background="#fff "
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp" />
+
+
+</LinearLayout>
