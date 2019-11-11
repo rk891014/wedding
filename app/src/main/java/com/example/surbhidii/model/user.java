@@ -7,6 +7,7 @@ public class user {
 
 
     public user(String username, String imageurl, String description,String contactno) {
+
         this.username = username;
         this.imageurl = imageurl;
         this.description=description;
